@@ -526,7 +526,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XYZ5D96NJ;
-				GCC_PREFIX_HEADER = "/Users/cengsijian/Desktop/20200812图灵机/TuringMachine/TuringMachine/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuringMachine/PrefixHeader.pch";
 				INFOPLIST_FILE = TuringMachine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -547,7 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XYZ5D96NJ;
-				GCC_PREFIX_HEADER = "/Users/cengsijian/Desktop/20200812图灵机/TuringMachine/TuringMachine/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuringMachine/PrefixHeader.pch";
 				INFOPLIST_FILE = TuringMachine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
