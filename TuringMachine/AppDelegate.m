@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    [self didInitWindow];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
-
+- (void)didInitWindow {
+    HomeViewController * vc = [[HomeViewController alloc]init];
+    QMUINavigationController *navigationController = [[QMUINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navigationController;
+}
 #pragma mark - UISceneSession lifecycle
 
 

@@ -7,7 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface HomeViewController : QMUICommonViewController
 
 
 @end
